@@ -1,0 +1,27 @@
+.controls img {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.controls .button {
+  width: 50%;
+  float: right;
+}
+
+.controls .dpad {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+}
+
+.stats {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  font-size: 24px;
+}
+
+#deaths {
+  padding-top: 14px;
+}

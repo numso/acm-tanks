@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.qr {
+  margin: 0 auto;
+  display: block;
+  margin-top: 90px;
+}
+.tank {
+  position: absolute;
+}
+
+.tank .explode {
+  display: none;
+  background-image: url('/img/explosion.png');
+  height: 64px;
+  width: 64px;
+}
+
+.tank .name {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  top: -50px;
+  left: 4px;
+  max-width: 100px;
+}
+
+.tank .name span {
+  white-space: nowrap;
+  display: inline-block;
+  max-width: 100px;
+  overflow: hidden;
+}
+
+.tank .name .arrow {
+  position: absolute;
+  top: 28px;
+  left: 15px;
+  border: 7px solid transparent;
+  border-top: 10px solid black;
+}
+
+.tank img {
+  -webkit-transform-origin-x: 25px;
+  position: absolute;
+  top: 0;
+}
+
+.bullet {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 10px;
+}
